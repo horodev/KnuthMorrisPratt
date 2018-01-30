@@ -2,9 +2,7 @@
 Java Program für Knuth Morris Pratt Algo
 
 Vorbereitung für die Klausur
-
 Um auszufuhren: java knuthmorrispratt <Müster> <Text>
-
 Ausgabe: 
   next & next' Tabellen
   es zeigt alle Vergleichungen und Verschiebungen
