@@ -3,7 +3,7 @@ Java Program für Knuth Morris Pratt Algo
 
 Vorbereitung für die Klausur
 
-Um auszufuhren: java knuthmorrispratt _Müster Text_
+Um auszuführen: java knuthmorrispratt _Muster Text_
 
 Ausgabe: 
   - next & next' Tabellen
