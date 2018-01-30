@@ -2,6 +2,7 @@
 Java Program für Knuth Morris Pratt Algo
 
 Vorbereitung für die Klausur
+
 Um auszufuhren: java knuthmorrispratt _Müster Text_
 
 Ausgabe: 
