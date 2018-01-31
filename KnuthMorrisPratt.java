@@ -119,8 +119,8 @@ class KnuthMorrisPratt {
                 System.out.print(" ");
             }
             System.out.println("|");
-            System.out.println("kein match @ Stelle:"+j+" Text:"+t+" Muster:"+p);
-            System.out.println("verschieb zu Musterstelle next'("+j+") = "+next2[j]+" = "+muster_verschiebung+" Stellen \n");
+            System.out.println("Kein match @ Stelle im Muster:"+j+" Text:"+t+" Muster:"+p);
+            System.out.println("Verschieb zu Musterstelle next'("+j+") = "+next2[j]+". Verschieb "+muster_verschiebung+" Stelle(n) \n");
             return (stelle + muster_verschiebung);
         }
     }
@@ -129,6 +129,7 @@ class KnuthMorrisPratt {
         int stelle = 0;
         System.out.println("vergleichen und verschieben");
         System.out.println("---------------------------");
+        System.out.println("Die aktuelle Stelle im Muster, die wir vergleichen, wird auf die Stelle im Muster von der next' Tabelle verschoben. \n"); 
         while (stelle < T.length()-P.length()) {
             stelle = this.vergleich_an_der_stelle(stelle);
         }
